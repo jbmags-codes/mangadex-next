@@ -21,6 +21,8 @@ const nextConfig: NextConfig = {
         ],
         qualities: [25, 50, 75, 100],
     },
+
+    output: 'standalone',
 };
 
 export default nextConfig;
