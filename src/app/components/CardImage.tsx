@@ -32,11 +32,7 @@ export default function CardImage({
             : englishTitle || japaneseTitle;
 
     return (
-        <Link
-            href={`/manga/${id}`}
-            className={cn('relative flex items-center justify-center rounded-xl shadow-sm hover:opacity-80 duration-300 aspect-[7/10]', className)}
-            scroll={false}
-        >
+        <Link href={`/manga/${id}`} className={cn('relative flex items-center justify-center rounded-xl shadow-sm hover:opacity-80 duration-300 aspect-[7/10]', className)}>
             <Image
                 src={coverArtFileName ? `https://mangadex.org/covers/${id}/${coverArtFileName}.512.jpg` : '/fallback.png'}
                 alt={`${title} Cover`}

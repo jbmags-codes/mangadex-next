@@ -1,10 +1,10 @@
 'use client';
 
 import { useState } from 'react';
-import ChapterGapDialog from './ChapterGapDialog';
-import ChapterNavPrevButton from './ChapterNavPrevButton';
-import ChapterNavSelect from './ChapterNavSelect';
-import ChaperNavNextButton from './ChaperNavNextButton';
+import ChapterGapDialog from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterGapDialog';
+import ChapterNavPrevButton from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterNavPrevButton';
+import ChapterNavSelect from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterNavSelect';
+import ChaperNavNextButton from '@/app/manga/[id]/chapter/[chapterId]/components/ChaperNavNextButton';
 
 type ChapterNavProps = {
     id: string;

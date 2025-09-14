@@ -28,7 +28,7 @@ export default function HeaderMenu({ title, currentChapter }: HeaderMenuProps) {
                     <div className="flex flex-col h-full w-full p-5 grow bg-background">
                         <div className="flex flex-col w-full">
                             <Drawer.Title className="flex items-center mb-2">
-                                <Link href={`/manga/${id}`} scroll={false} className="flex items-center gap-x-2 text-orange-600">
+                                <Link href={`/manga/${id}`} className="flex items-center gap-x-2 text-orange-600">
                                     <Book size={18} />
                                     <span className="font-medium">{title}</span>
                                 </Link>

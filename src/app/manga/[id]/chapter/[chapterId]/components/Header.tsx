@@ -1,6 +1,6 @@
 import { ModeToggle } from '@/components/mode-toggle';
-import HeaderMenu from './HeaderMenu';
-import HeaderLogo from './HeaderLogo';
+import HeaderMenu from '@/app/manga/[id]/chapter/[chapterId]/components/HeaderMenu';
+import HeaderLogo from '@/app/manga/[id]/chapter/[chapterId]/components/HeaderLogo';
 
 type HeaderProps = {
     title?: string;

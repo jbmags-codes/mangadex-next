@@ -1,5 +1,5 @@
 import { headers } from 'next/headers';
-import LatestUpdatesCard from './LatestUpdatesCard';
+import LatestUpdatesCard from '@/app/components/LatestUpdatesCard';
 
 export default async function LatestUpdates() {
     const headersList = await headers();

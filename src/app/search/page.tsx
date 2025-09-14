@@ -1,6 +1,6 @@
 import { headers } from 'next/headers';
 import { Suspense } from 'react';
-import Loading from './loading';
+import Loading from '@/app/search/loading';
 import MainLayout from '@/app/components/MainLayout';
 import SearchResults from '@/app/components/SearchResults';
 import SearchPagination from '@/app/components/SearchPagination';

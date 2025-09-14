@@ -1,16 +1,16 @@
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
 import { Suspense } from 'react';
-import Loading from './loading';
+import Loading from '@/app/completed/loading';
 import MainLayout from '@/app/components/MainLayout';
 import OriginalLanguageFilter from '@/app/components/OriginalLanguageFilter';
-import CompletedResults from './components/CompletedResults';
-import CompletedPagination from './components/CompletedPagination';
+import CompletedResults from '@/app/completed/components/CompletedResults';
+import CompletedPagination from '@/app/completed/components/CompletedPagination';
 
 export const metadata: Metadata = {
     title: 'MangaDex | jbcodes | Completed manga, manhwa, and manhua.',
     icons: {
-        icon: '/jbcodes-icon.svg',
+        icon: '/mangadex.svg',
     },
     description: 'MangaDex | jbcodes | Completed manga, manhwa, and manhua.',
 };

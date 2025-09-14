@@ -1,8 +1,8 @@
-import MainLayout from './components/MainLayout';
-import Featured from './components/Featured';
-import Completed from './components/Completed';
-import LatestUpdates from './components/LatestUpdates';
-import RecentlyAdded from './components/RecentlyAdded';
+import MainLayout from '@/app/components/MainLayout';
+import Featured from '@/app/components/Featured';
+import Completed from '@/app/components/Completed';
+import LatestUpdates from '@/app/components/LatestUpdates';
+import RecentlyAdded from '@/app/components/RecentlyAdded';
 
 export default function Home() {
     return (

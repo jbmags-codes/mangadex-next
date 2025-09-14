@@ -54,7 +54,6 @@ export default async function Completed() {
                 <Link
                     href="/completed?page=1"
                     className="flex items-center justify-center gap-x-2 h-10 w-full bg-orange-600 text-white text-sm uppercase font-medium rounded-lg hover:opacity-80 duration-300"
-                    scroll={false}
                 >
                     <span>See All</span>
                     <ArrowRight size={16} />

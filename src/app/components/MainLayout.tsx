@@ -1,19 +1,15 @@
-import { techStack } from '../constants/tech-stack';
-import Credits from './Credits';
-import GitHubRepo from './GitHubRepo';
-import MainFooter from './MainFooter';
-import MainHeader from './MainHeader';
-import Search from './Search';
-import TechStack from './TechStack';
-import Title from './Title';
+import { techStack } from '@/app/constants/tech-stack';
+import Credits from '@/app/components/Credits';
+import GitHubRepo from '@/app/components/GitHubRepo';
+import MainFooter from '@/app/components/MainFooter';
+import MainHeader from '@/app/components/MainHeader';
+import Search from '@/app/components/Search';
+import TechStack from '@/app/components/TechStack';
+import Title from '@/app/components/Title';
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
     return (
         <>
-            {/* Temporary fix for not scrolling to top when changing pages or routes. */}
-            {/* <ScrollToTop /> */}
-            {/* Temporary fix for not scrolling to top when changing pages or routes. */}
-
             <MainHeader />
 
             <main className="flex flex-col w-full min-h-[100svh] sm:min-h-[100dvh] py-12 xs:py-14 sm:py-16 px-6">

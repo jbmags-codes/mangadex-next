@@ -9,12 +9,12 @@ import CardOriginalLanguage from '@/app/components/CardOriginalLanguage';
 import CardStatistics from '@/app/components/CardStatistics';
 import CardLastUpdate from '@/app/components/CardLastUpdate';
 import CardDescription from '@/app/components/CardDescription';
-import Author from './components/Author';
-import Artist from './components/Artist';
-import Genres from './components/Genres';
-import Themes from './components/Themes';
-import Format from './components/Format';
-import Chapters from './components/Chapters';
+import Author from '@/app/manga/[id]/components/Author';
+import Artist from '@/app/manga/[id]/components/Artist';
+import Genres from '@/app/manga/[id]/components/Genres';
+import Themes from '@/app/manga/[id]/components/Themes';
+import Format from '@/app/manga/[id]/components/Format';
+import Chapters from '@/app/manga/[id]/components/Chapters';
 
 // Dynamic metadata
 export async function generateMetadata({ params }: MangaProps) {

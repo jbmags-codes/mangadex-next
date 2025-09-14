@@ -1,5 +1,5 @@
-import { Dispatch, SetStateAction } from 'react';
 import { useRouter } from 'next/navigation';
+import { Dispatch, SetStateAction } from 'react';
 import { Loader2, ChevronLeft } from 'lucide-react';
 
 type ChapterNavPrevButtonProps = {

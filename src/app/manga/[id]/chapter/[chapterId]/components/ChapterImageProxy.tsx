@@ -3,7 +3,7 @@
 import { Dispatch, SetStateAction } from 'react';
 import { rgbDataURL } from '@/app/lib/rgbDataURL';
 import Image from 'next/image';
-import ChapterLoading from './ChapterLoading';
+import ChapterLoading from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterLoading';
 import useChapterImageProxy from '@/app/hooks/useChapterImageProxy';
 
 type ChapterImageProxyProps = {

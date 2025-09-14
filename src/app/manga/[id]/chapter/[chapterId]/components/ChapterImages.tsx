@@ -1,5 +1,5 @@
 import { baseURL } from '@/app/constants/base-url';
-import ChapterImagesContainerAndCounter from './ChapterImagesContainerAndCounter';
+import ChapterImagesContainerAndCounter from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterImagesContainerAndCounter';
 
 async function getChapterImages(chapterId: string) {
     const response = await fetch(`${baseURL}/api/chapter/${chapterId}/images`);

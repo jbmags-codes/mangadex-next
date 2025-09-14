@@ -6,8 +6,8 @@ import Link from 'next/link';
 import ChapterNav from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterNav';
 import useChapters from '@/app/hooks/useChapters';
 import useLocalStorage from '@/hooks/useLocalStorage';
-import ChapterControlsPopoverButton from './ChapterControlsPopoverButton';
-import ChapterControlsMenuButtonNotification from './ChapterControlsMenuButtonNotification';
+import ChapterControlsPopoverButton from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterControlsPopoverButton';
+import ChapterControlsMenuButtonNotification from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterControlsMenuButtonNotification';
 
 type ChapterControlsProps = {
     id: string;

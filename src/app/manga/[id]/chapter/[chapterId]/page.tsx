@@ -2,10 +2,10 @@ import { Suspense } from 'react';
 import { getChapter } from '@/app/lib/getChapter';
 import Link from 'next/link';
 import Header from '@/app/manga/[id]/chapter/[chapterId]/components/Header';
-import ChapterImages from './components/ChapterImages';
+import ChapterImages from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterImages';
 import ChapterControls from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterControls';
 import ChapterScrollProgress from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterScrollProgress';
-import ChapterLoading from './components/ChapterLoading';
+import ChapterLoading from '@/app/manga/[id]/chapter/[chapterId]/components/ChapterLoading';
 
 type ChapterProps = {
     params: Promise<{

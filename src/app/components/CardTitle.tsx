@@ -18,7 +18,7 @@ export default function CardTitle({ id, originalLanguage, altTitles, englishTitl
             : englishTitle || japaneseTitle;
 
     return (
-        <Link href={`/manga/${id}`} className={cn('hover:text-orange-600 duration-300 w-fit', linkClassName)} scroll={false}>
+        <Link href={`/manga/${id}`} className={cn('hover:text-orange-600 duration-300 w-fit', linkClassName)}>
             <h1 className={cn(titleClassName)}>{title}</h1>
         </Link>
     );

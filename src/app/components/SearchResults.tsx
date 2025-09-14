@@ -1,10 +1,10 @@
-import CardImage from './CardImage';
-import CardTitle from './CardTitle';
-import CardOriginalLanguage from './CardOriginalLanguage';
-import CardStatistics from './CardStatistics';
-import CardLastUpdate from './CardLastUpdate';
-import CardGenresOrThemes from './CardGenresOrThemes';
-import CardDescription from './CardDescription';
+import CardImage from '@/app/components/CardImage';
+import CardTitle from '@/app/components/CardTitle';
+import CardOriginalLanguage from '@/app/components/CardOriginalLanguage';
+import CardStatistics from '@/app/components/CardStatistics';
+import CardLastUpdate from '@/app/components/CardLastUpdate';
+import CardGenresOrThemes from '@/app/components/CardGenresOrThemes';
+import CardDescription from '@/app/components/CardDescription';
 
 type SearchResultsProps = {
     searchResults: MangaDexGetMangaResponse;
